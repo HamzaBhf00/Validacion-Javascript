@@ -1,0 +1,48 @@
+body {
+    background-color: papayawhip;
+}
+
+.container {
+    font: 1em sans-serif;
+    max-width: 600px;
+    margin: 0px auto;
+
+}
+
+.form-group {
+    margin-top: 1em;
+}
+
+.form-group>input,
+.form-group>textarea,
+.form-group>select {
+    display: block;
+    width: 100%;
+}
+
+.form-group>input[type="checkbox"] {
+    display: inline-block;
+    width: auto;
+}
+
+/*Error*/
+p.error-feedback {
+    color: red;
+    font-size: small;
+    margin: 0;
+}
+
+.error>input {
+    border-color: red;
+}
+
+/*Valid*/
+p.valid-feedback {
+    color: green;
+    font-size: small;
+    margin: 0;
+}
+
+.valid>input {
+    border-color: green;
+}
